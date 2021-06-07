@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-
+import os
 from pathlib import Path
 import dj_database_url
 
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-r4z^@2w_l9pljl8y467t(_-#nmqo0dj&6+=e(l#l&%r*2j&g6%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blogwithsaiydur.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
