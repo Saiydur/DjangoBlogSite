@@ -1,1 +1,2 @@
-web: gunicorn djangoherokuapp.wsgi.application --log-file - 
+release: python manage.py migrate
+web: gunicorn djangoherokuapp.wsgi --log-file -
